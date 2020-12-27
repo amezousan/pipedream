@@ -2,11 +2,11 @@
 /***
  * Enviroment Variables
  */
-const target_date    = undefined; // optional
-const bot_id         = process.env.BOT_ID;           // optional
-const slack_token    = process.env.SLACK_TOKEN;      // required
-let slack_webhook    = process.env.SLACK_WEBHOOK;    // required
-let slack_channel_id = process.env.SLACK_CHANNEL_ID; // required
+const target_date      = undefined; // optional
+const bot_id           = process.env.BOT_ID;           // optional
+const slack_token      = process.env.SLACK_TOKEN;      // required
+const slack_webhook    = process.env.SLACK_WEBHOOK;    // required
+const slack_channel_id = process.env.SLACK_CHANNEL_ID; // required
 
 /***
  * Load Modules
